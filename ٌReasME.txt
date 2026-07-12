@@ -1,0 +1,57 @@
+BOX GAME
+=========
+
+Files:
+------
+index.html
+style.css
+script.js
+README.txt
+
+How to Play:
+------------
+1. Put all 4 files in the same folder.
+2. Open index.html in any modern browser.
+3. Press PLAY.
+4. Move the player using:
+   - Arrow Keys
+   - WASD
+   - Touch buttons or swipe on mobile.
+5. Push every box onto the green target.
+6. Complete all levels to finish the game.
+
+Game Symbols:
+-------------
+# = Wall
+. = Floor
+@ = Player
+$ = Box
+X = Target
+
+Features:
+---------
+- HTML5 Canvas
+- Responsive Design
+- Mobile Controls
+- Keyboard Controls
+- Timer
+- Score
+- Moves Counter
+- Restart Button
+- Multiple Levels
+- Win Screen
+- Automatic Next Level
+- Pure HTML/CSS/JavaScript
+- No Libraries
+- No Frameworks
+
+Folder Structure:
+-----------------
+/
+│
+├── index.html
+├── style.css
+├── script.js
+└── README.txt
+
+Enjoy!

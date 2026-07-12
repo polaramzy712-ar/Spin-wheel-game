@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+<title>Science Wheel Game</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- Left Side -->
+
+    <div class="left">
+
+        <div class="wheelContainer">
+
+            <div class="pointer"></div>
+
+            <canvas id="wheel" width="620" height="620"></canvas>
+
+        </div>
+
+        <button id="spinBtn">
+
+            🎡 SPIN
+
+        </button>
+
+    </div>
+
+
+
+    <!-- Right Side -->
+
+    <div class="right">
+
+        <div class="teacherCard">
+
+            <div class="teacherIcon">
+
+                🧪
+
+            </div>
+
+            <div class="teacherInfo">
+
+                <h2>
+
+                    Mr: Boula Ramzy
+
+                </h2>
+
+                <p>
+
+                    Science Teacher
+
+                </p>
+
+            </div>
+
+            <img
+            src="images/teacher.jpg"
+            class="teacherPhoto">
+
+        </div>
+
+
+
+        <div class="infoBox">
+
+            <h3>
+
+                ⭐ SCORE
+
+            </h3>
+
+            <span id="score">
+
+                0
+
+            </span>
+
+        </div>
+
+
+
+        <div class="infoBox">
+
+            <h3>
+
+                ❓ REMAINING
+
+            </h3>
+
+            <span id="remaining">
+
+                0
+
+            </span>
+
+        </div>
+
+
+
+        <div class="infoBox">
+
+            <h3>
+
+                ⏱ TIMER
+
+            </h3>
+
+            <span id="time">
+
+                30
+
+            </span>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<!-- Question -->
+
+<div id="questionModal" class="hidden">
+
+<div class="questionCard">
+
+<h2 id="questionText">
+
+Question
+
+</h2>
+
+<div id="answers">
+
+<button class="answerBtn"></button>
+
+<button class="answerBtn"></button>
+
+<button class="answerBtn"></button>
+
+<button class="answerBtn"></button>
+
+</div>
+
+</div>
+
+</div>
+
+
+
+<!-- Finish -->
+
+<div id="finishScreen" class="hidden">
+
+<h1>
+
+🎉 Great Job
+
+</h1>
+
+<h2>
+
+Your Score
+
+</h2>
+
+<h3 id="finalScore">
+
+0
+
+</h3>
+
+<button id="restartBtn">
+
+Play Again
+
+</button>
+
+</div>
+
+
+
+<!-- Sounds -->
+
+<audio id="bg" src="sound/background.mp3" loop></audio>
+
+<audio id="click" src="sound/click.mp3"></audio>
+
+<audio id="hover" src="sound/hover.mp3"></audio>
+
+<audio id="open" src="sound/open.mp3"></audio>
+
+<audio id="correct" src="sound/correct.mp3"></audio>
+
+<audio id="wrong" src="sound/wrong.mp3"></audio>
+
+<audio id="finish" src="sound/Finish.mp3"></audio>
+
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
